@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <title>Автобиография</title>
+</head>
+
+<body>
+    
+    <header>
+        <img id="handIcon" src="img/handshake-regular.svg" alt="">
+        <h1>Your welcome!</h1>
+    </header>
+
+    <nav>
+        <ol><a href="#aboutMe">Обо мне</a></ol>
+        <ol><a href="#works">Мои работы</a></ol>
+        <ol><a href="#contacts">Контакты</a></ol>
+    </nav>
+
+    <main id="aboutMe">
+        <h1>Немного обо мне</h1>
+        <div class="cardsBlock">
+            <div class="card">
+                <span>Обо мне <br> (click on me)</span>
+                <p>Здравствуй! Меня зовут Андрей я из города Тулы и мне 20 лет. <br> С 14 лет интересуюсь программированием. Успел себя попробовать во многом - Python, C(# | ++) , Back-End, и непосредстенно сам Front-End, который больше всех зацепил меня. <br> А так-же успел поучаствовать в разных интересных проектах, начиная от ботов в Telegram и заканчивая искуственным интеллектом</p>
+            </div>
+            <div class="card">
+                <span>Образование <br> (click on me)</span>
+                <p>На данный обучаюсь в ТулГУ по направлению: <i>Информационная безопасность</i> (2019-2023). <br> Помимо прохожу курсы от CodeMasters и занимаюсь самообучением в стези Front-End разработки.</p>
+            </div>
+            <div class="card">
+                <span>К чему стремлюсь <br> (click on me)</span>
+                <p>Стремлюсь, пожалуй, к постоянному развитию в коллективе опытных коллег в области Front-End разработки. <br>В дальнейших планах хочется попробовать себя в Back-End разработке. </p>
+            </div>
+        </div>
+        <h1 id="works">Мои работы</h1>
+        <div class="portfolio" >
+            <div class="myWorks">
+                <div class="works">
+                    <a href="https://eazybrizi.github.io/andrey.github.io/" target="_blank">
+                    <img src="img/firstSite.png" alt=""></a>
+                    <span>Сайт-визитка для ИП</span>
+                    </a>
+                </div>
+                
+                <div class="works">
+                    <a href="https://eazybrizi.github.io/TulaHack2022/" target="_blank">
+                    <img src="img/secondSite.jpg" alt=""></a>
+                    <span>Сайт для предприятия</span>
+                </a>
+                </div>
+                <div class="works">
+                    <a href="https://codepen.io/your-work" target="_blank">
+                    <img src="img/Codepen.webp" alt=""></a>
+                    <span>Другие мои работы на Codepen</span>
+                </div>
+                <div class="works">
+                    <a href="https://github.com/EAZYBRIZI" target="_blank">
+                    <img src="img/gitHub.jpg" alt=""></a>
+                    <span>Другие мои работы на GitHub</span>
+                    
+                </div>
+            </div>
+        </div>    
+    </main>
+    
+    <footer id="contacts">
+        <h1 class="headline">Связь со мной</h1>
+        <div class="contacts">
+            <span><b><i>Моб. номер:</i></b> <a href="#contacts" id="phoneNumber">8-953-***-87-44</a></span>
+            <span><b><i> E-Mail:</i></b> <a href="#contacts" id="email">gusarov.******@yandex.ru</a></span>
+            <span><b><i>Telegram:</i></b> <a href="#contacts" id="telegram">@ezbizi</a></span>
+            <div id="helper"><i>(просто нажмите для копирования)</i> </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
